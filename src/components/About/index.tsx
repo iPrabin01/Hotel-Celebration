@@ -39,7 +39,7 @@ const About = () => {
       </section>
       <section
         id="about"
-        className="py-16 px-16 bg-gradient-to-br from-gray-50 to-gray-100"
+        className="py-16 md:px-16 px-2 bg-gradient-to-br from-gray-50 to-gray-100"
       >
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -133,7 +133,7 @@ const About = () => {
       </section>
       <section
         id="katiya-special"
-        className=" px-16 bg-gradient-to-br bg-white"
+        className=" md:px-16 px-2 bg-gradient-to-br bg-white"
       >
         <div className="container  mx-auto px-4">
           <div className="text-center pb-12 mb-16">

@@ -11,7 +11,7 @@ const Info = () => {
                 <img src="/images/k1.png" alt="" />
               </div>
             </div>
-            <div className="absolute -bottom-8 -right-28 bg-amber-500 p-4 rounded-lg shadow-lg text-center">
+            <div className="absolute -bottom-8 sm:-right-28 bg-amber-500 p-4 rounded-lg shadow-lg text-center">
               <p className="font-bold text-lg">Pradip Kumar Mahato</p>
               <p className="text-sm">Owner & Head Chef</p>
             </div>

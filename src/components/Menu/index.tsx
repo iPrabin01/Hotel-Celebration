@@ -85,7 +85,7 @@ const Menu = () => {
     // },
   ];
   return (
-    <section id="menu" className="py-12 px-16">
+    <section id="menu" className="py-12 md:px-16 px-2">
       <div className="container flex flex-col gap-4 justify-center items-center mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
