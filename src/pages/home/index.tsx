@@ -1,3 +1,4 @@
+import Wisky from "../../components/wisky/Wisky";
 import AboutPage from "../about/about";
 import ContactPage from "../contact/contact";
 import FooterPage from "../footer/footer";
@@ -12,6 +13,7 @@ const HomeLayout = () => {
         <Navbar />
         <AboutPage />
         <MenuPage />
+        <Wisky />
         <InfoPage />
         <ContactPage />
         <FooterPage />

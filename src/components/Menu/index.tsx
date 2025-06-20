@@ -15,25 +15,17 @@ const Menu = () => {
       price: 70,
       quantity: 33,
       category: "Food Non-Veg",
-      image: "/images/6.jpg",
+      image: "/images/ff.jpg",
       description: "Crispy fried fish marinated with Nepali spices.",
     },
-    {
-      id: "7",
-      name: "Bhuja",
-      price: 60,
-      quantity: 43,
-      category: "Food Veg",
-      image: "/images/5.jpg",
-      description: "Spiced puffed rice mix with crunchy elements.",
-    },
+
     {
       id: "8",
       name: "Normal Mutton",
       price: 400,
       quantity: 48,
       category: "Food Non-Veg",
-      image: "/images/5.jpg",
+      image: "/images/km2.jpg",
       description: "Classic Nepali-style mutton curry with herbs.",
     },
     {
@@ -42,7 +34,7 @@ const Menu = () => {
       price: 350,
       quantity: 45,
       category: "Food Veg",
-      image: "/images/4.jpg",
+      image: "/images/pc.jpg",
       description: "Paneer tossed in spicy and tangy gravy.",
     },
     {
@@ -51,7 +43,7 @@ const Menu = () => {
       price: 350,
       quantity: 48,
       category: "Food Veg",
-      image: "/images/2.jpg",
+      image: "/images/pp.jpg",
       description: "Deep-fried paneer fritters with chutney.",
     },
     {
@@ -60,7 +52,7 @@ const Menu = () => {
       price: 250,
       quantity: 50,
       category: "Food Non-Veg",
-      image: "/images/4.jpg",
+      image: "/images/ccr.jpg",
       description: "Home-style chicken curry cooked in rich gravy.",
     },
     {
@@ -69,9 +61,18 @@ const Menu = () => {
       price: 250,
       quantity: 50,
       category: "Food Non-Veg",
-      image:
-        "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=100",
+      image: "/images/gc.jpg",
+
       description: "Juicy roasted chicken with flavorful spices.",
+    },
+    {
+      id: "7",
+      name: "Mutton Rice",
+      price: 320,
+      quantity: 43,
+      category: "Food Veg",
+      image: "/images/kh.jpg",
+      description: "Spiced puffed rice mix with crunchy elements.",
     },
     // {
     //   id: "13",
@@ -87,7 +88,7 @@ const Menu = () => {
   return (
     <section id="menu" className="py-12 md:px-16 px-2">
       <div className="container flex flex-col gap-4 justify-center items-center mx-auto px-4">
-        <div className="text-center mb-16">
+        <div className="text-center mb-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Culinary Masterpieces
           </h2>
@@ -113,7 +114,7 @@ const Menu = () => {
                   Rs. {item.price}
                 </div>
               </div>
-              <div className="p-6">
+              <div className="px-6 py-4">
                 <h3 className="font-bold text-white text-xl mb-2">
                   {item.name}
                 </h3>
