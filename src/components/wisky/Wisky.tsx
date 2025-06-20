@@ -87,7 +87,7 @@ const Wisky = () => {
               </div>
 
               <div className="mt-8 text-center">
-                <div className="inline-flex items-center gap-3 bg-gray-900 text-white px-6 py-3 rounded-full font-black">
+                <div className="inline-flex text-sm items-center gap-3 bg-gray-900 text-white px-4 md:px-6 py-3 md:py-3 rounded-full font-black">
                   <Clock className="w-5 h-5" />
                   <span>1-1.5 HOURS OF PATIENT COOKING</span>
                 </div>
@@ -101,7 +101,7 @@ const Wisky = () => {
                 </h4>
 
                 <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-                  <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-2xl font-black text-lg uppercase tracking-wide transform hover:scale-105 transition-all duration-300 shadow-xl">
+                  <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-2xl font-black sm:text-lg uppercase tracking-wide transform hover:scale-105 transition-all duration-300 shadow-xl">
                     Order Now
                     <ChevronRight className="inline ml-2 w-5 h-5" />
                   </button>
@@ -111,14 +111,14 @@ const Wisky = () => {
                       FOLLOW US:
                     </span>
                     <div className="flex gap-2">
-                      <div className="w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center hover:scale-110 transition-all cursor-pointer">
-                        <Facebook className="w-5 h-5 text-white" />
+                      <div className="md:w-10 w-8 h-8 md:h-10 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center hover:scale-110 transition-all cursor-pointer">
+                        <Facebook className="w-4 h-4 text-white" />
                       </div>
-                      <div className="w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center hover:scale-110 transition-all cursor-pointer">
-                        <Instagram className="w-5 h-5 text-white" />
+                      <div className="md:w-10 w-8 h-8 md:h-10 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center hover:scale-110 transition-all cursor-pointer">
+                        <Instagram className="w-4 h-4 text-white" />
                       </div>
-                      <div className="w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center hover:scale-110 transition-all cursor-pointer">
-                        <Linkedin className="w-5 h-5 text-white" />
+                      <div className="md:w-10 w-8 h-8 md:h-10 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center hover:scale-110 transition-all cursor-pointer">
+                        <Linkedin className="w-4 h-4 text-white" />
                       </div>
                     </div>
                   </div>
@@ -141,12 +141,12 @@ const Wisky = () => {
 
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900/40 via-transparent to-transparent"></div>
 
-                  <div className="absolute top-4 left-4 bg-white text-gray-900 px-3 py-1 rounded-full font-bold text-xs uppercase shadow-lg">
+                  <div className="absolute top-4 left-8 bg-white text-gray-900 px-3 py-1 rounded-full font-bold text-xs uppercase shadow-lg">
                     Authentic
                   </div>
 
                   <div className="absolute top-4 right-4 bg-orange-500 text-white px-3 py-1 rounded-full font-bold text-xs uppercase">
-                    Since 1985
+                    Since 2019
                   </div>
 
                   <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm text-gray-900 px-4 py-2 rounded-full shadow-lg">
@@ -158,7 +158,7 @@ const Wisky = () => {
                 </div>
               </div>
 
-              <div className="absolute -bottom-4 -right-4 bg-orange-500 text-white p-4 rounded-2xl transform rotate-6 font-black text-lg shadow-2xl">
+              <div className="absolute -bottom-4 -right-4 bg-orange-500 text-white p-2 px-4 md:p-4 rounded-2xl transform rotate-6 font-black md:text-lg shadow-2xl">
                 8 SPICES
               </div>
             </div>
@@ -170,21 +170,21 @@ const Wisky = () => {
         </div>
 
         <div className="mt-20 text-center">
-          <div className="inline-flex items-center gap-8 bg-white border-2 border-gray-300 rounded-full px-12 py-6 shadow-xl">
+          <div className="inline-flex items-center gap-8 bg-white border-2 border-gray-300 rounded-full md:px-12 px-4 md:py-6 py-2 shadow-xl">
             <div className="flex items-center gap-2">
-              <div className="w-4 h-4 bg-gray-600 rounded-full"></div>
+              <div className="w-5 h-4 bg-gray-600 rounded-full"></div>
               <span className="text-gray-700 font-bold text-sm uppercase">
                 Clay Pot Cooked
               </span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-4 h-4 bg-orange-500 rounded-full"></div>
+              <div className="w-5 h-4 bg-orange-500 rounded-full"></div>
               <span className="text-gray-700 font-bold text-sm uppercase">
                 Wood Fire
               </span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-4 h-4 bg-gray-800 rounded-full"></div>
+              <div className="w-5 h-4 bg-gray-800 rounded-full"></div>
               <span className="text-gray-700 font-bold text-sm uppercase">
                 Secret Recipe
               </span>

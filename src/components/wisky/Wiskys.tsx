@@ -11,7 +11,7 @@ const WhiskyPoster = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6 flex flex-col  p-8 rounded-2xl bg-white/80 backdrop-blur-sm   transition-all duration-300">
+          <div className="space-y-6 flex flex-col px-2 md:p-8 rounded-2xl bg-white/80 backdrop-blur-sm   transition-all duration-300">
             <h3 className="text-3xl font-bold  ">
               Premium Whisky, Beer & Spirits –{" "}
               <span className="bg-gradient-to-r bg-clip-text from-amber-800 to-orange-600 text-transparent">
@@ -57,14 +57,14 @@ const WhiskyPoster = () => {
               —our drinks are more than beverages, they’re an experience.
             </p>
 
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 pt-4">
+            <div className="flex  sm:flex-row justify-between items-start sm:items-center gap-4 pt-4">
               <button className="flex items-center justify-center px-6 py-2 bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white text-sm rounded-xl font-medium transition-all duration-300 hover:scale-105 shadow-lg">
                 Explore more
                 <ChevronRight className="ml-2 w-4 h-4" />
               </button>
 
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                <span className="text-[12px] text-gray-600 border border-orange-300 px-3 py-1 rounded-full bg-orange-50">
+                <span className="text-[12px] hidden md:block text-gray-600 border border-orange-300 px-3 py-1 rounded-full bg-orange-50">
                   Meet digitally
                 </span>
                 <div className="flex gap-3">
