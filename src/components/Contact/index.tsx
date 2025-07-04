@@ -49,13 +49,13 @@ const Contact = () => {
           <div className="rounded-xl shadow-lg">
             <div className="w-full h-96 rounded-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.31625951581!2d85.29111310835925!3d27.70894424183343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600%2C%20Nepal!5e0!3m2!1sen!2sus!4v1718560000000!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.055326108721!2d85.8530479!3d26.6090164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ec47000b627073%3A0x3bce23b34ddffb18!2sHOTEL%20CELEBRATION%20PURANO%20KATIYA%20HOUSE!5e0!3m2!1sen!2snp!4v1720070110000!5m2!1sen!2snp"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
-                allowFullScreen
                 loading="lazy"
-              ></iframe>
+                referrerPolicy="no-referrer-when-downgrade"
+              />
             </div>
           </div>
         </div>
